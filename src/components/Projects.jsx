@@ -5,19 +5,19 @@ import dashImg from '../assets/dash.png';
 const projects = [
   {
     title: "Project One",
-    description: "A modern web app built with React.",
+    description: "A Ride Hailing App built with laravel",
     link: "#",
     image: bookingImg,
   },
   {
     title: "Project Two",
-    description: "A responsive portfolio template.",
+    description: "A Login Page using Laravel.",
     link: "#",
     image: loginImg,
   },
   {
     title: "Project Three",
-    description: "A Tailwind CSS landing page.",
+    description: "A Dashboard System for campus clearance using Laravel.",
     link: "#",
     image: dashImg,
   },
