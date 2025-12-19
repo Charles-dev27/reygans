@@ -15,7 +15,7 @@ export default function Hero() {
 
       {/* Right: Text */}
       <div className="text-center md:text-left max-w-lg">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm John Doe</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Reygan M. Corvera</h1>
         <p className="text-lg md:text-xl mb-6">
           I’m a Frontend Developer building modern web applications.
         </p>
