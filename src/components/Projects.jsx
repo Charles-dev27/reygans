@@ -1,21 +1,25 @@
+import bookingImg from '../assets/booking.png';
+import loginImg from '../assets/login.png';
+import dashImg from '../assets/dash.png';
+
 const projects = [
   {
     title: "Project One",
     description: "A modern web app built with React.",
     link: "#",
-    image: "/booking.png",
+    image: bookingImg,
   },
   {
     title: "Project Two",
     description: "A responsive portfolio template.",
     link: "#",
-    image: "/login.png",
+    image: loginImg,
   },
   {
     title: "Project Three",
     description: "A Tailwind CSS landing page.",
     link: "#",
-    image: "/dash.png",
+    image: dashImg,
   },
 ];
 
@@ -27,7 +31,7 @@ export default function Projects() {
         {projects.map((project, i) => (
           <div
             key={i}
-            className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition"
+            className="bg-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl hover:scale-105 transform transition"
           >
             {/* Project Image */}
             <img

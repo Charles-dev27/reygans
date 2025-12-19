@@ -1,3 +1,5 @@
+import profileImg from '../assets/profile.png'; // import from assets
+
 export default function Hero() {
   return (
     <section
@@ -7,7 +9,7 @@ export default function Hero() {
       {/* Left: Circular Image */}
       <div className="flex-shrink-0">
         <img
-          src="/profile.png" // Place your photo in public folder
+          src={profileImg}
           alt="Profile"
           className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-sky-500 shadow-lg"
         />
